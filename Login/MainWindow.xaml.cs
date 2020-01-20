@@ -33,9 +33,10 @@ namespace Login
             bool leng = tbPassword.Password.Length >= 6;
             bool inte = tbPassword.Password.Any(char.IsLetter);
             bool chara = tbPassword.Password.Any(char.IsDigit);
-            if (isValidPassword == true)
+            if (isValidPassword)
             {
                 MessageBox.Show("Zadali jste správně heslo!!!!");
+                sayHello.Content = "Ahojda, já jsem " + tbName.Text;
             }
             else
             {

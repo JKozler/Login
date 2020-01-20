@@ -19,5 +19,6 @@
         <TextBox x:Name="tbName" Text="Name" Margin="10" Grid.Column="0" Grid.Row="0"></TextBox>
         <PasswordBox x:Name="tbPassword" Grid.Row="1" Grid.Column="0" Margin="10"></PasswordBox>
         <Button Grid.Column="0" Grid.Row="2" Margin="10" Content="Log in" Click="Button_Click"></Button>
+        <Label Grid.Row="1" Grid.Column="1" x:Name="sayHello"></Label>
     </Grid>
 </Window>
